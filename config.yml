@@ -1,0 +1,37 @@
+language: en
+pipeline:
+- name: ConveRTTokenizer
+- name: ConveRTFeaturizer
+- name: RegexFeaturizer
+- name: CRFEntityExtractor
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: DIETClassifier
+  epochs: 300
+- name: EntitySynonymMapper
+- name: DucklingHTTPExtractor
+  url: http://localhost:8000
+  dimensions:
+  - amount-of-money
+  - time
+  - number
+- name: ResponseSelector
+  epochs: 100
+policies:
+- name: MemoizationPolicy
+- name: TEDPolicy
+  max_history: 4
+  epochs: 100
+- name: MappingPolicy
+- name: FormPolicy
+- name: TwoStageFallbackPolicy
+  nlu_threshold: 0.3
+  ambiguity_threshold: 0.1
+  core_threshold: 0.3
+  fallback_core_action_name: action_default_fallback
+  fallback_nlu_action_name: action_default_fallback
+  deny_suggestion_intent_name: out_of_scope
