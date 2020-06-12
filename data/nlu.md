@@ -1,0 +1,1275 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- Hey man
+- well hello there
+- what up
+- Howdy!
+- what's good
+- Hey hey!
+- hey hey my man!
+- yo
+- yo yo
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hey robot
+- Hey! What's up
+- Yo Yo what's up
+- hello my good fellow
+- Hello?
+- Hellllloooo
+- Hellllooo
+
+## intent:greet_name
+- Hello! My name is [Jason](name)
+- Hey! My name is [Amanda](name)
+- Howdy! I'm [Jared](name)!
+- hey! I'm [Jessica](name)!
+- hello! My name is [Paul](name)
+- hi my name is [Jeff](name)
+- good morning! My name is [Erika](name)
+- good afternoon! My name is [Drew](name)
+- good evening! My name is [Brandon](name)
+- hey there! My name is [Latoyia](name)
+- Hey man! My name is [Joey](name)
+- well hello there! My name is [Mila](name)
+- what up! My name is [Aaron](name)
+- Howdy!! My name is [Jacob](name)
+- what's good! My name is [Whitney](name)
+- Hey hey!! My name is [Amanda](name)
+- hey hey my man!! My name is [Natalee](name)
+- yo! My name is [Jody](name)
+- yo yo! My name is [Jake](name)
+- Hi! I'm [Courtney](name)!
+- Hey! My name is [Jamie](name)
+- Hi bot! I'm [John](name)!
+- Hey bot! My name is [Linda](name)
+- Hello! I'm [Kyson](name)!
+- hi again! My name is [Tyson](name)
+- hi folks! I'm [Andrew](name)!
+- hi Mister! My name is [Ian](name)
+- hi pal!! I'm [Pat](name)!
+- hi there! My name is [Troy](name)
+- greetings! I'm [Tom](name)!
+- hello everybody! I'm [Megan](name)!
+- hello is anybody there! My name is [Drea](name)
+- hello robot! I'm [Oskar](name)!
+- hey robot! My name is [Dave](name)
+- Yo Yo! I'm PapaG
+- Hey LeBron! My name is [Jason](name)[Jason](name)
+- My name is [Jason](name)[Jason](name)
+- My name is [PapaG](name)
+- Hey hey! My name is [Jerry](name)[Jerry](name)
+- Hello LeBron! My name is [Jason](name)[Jason](name)
+- Hello LeBron! My name is [George](name)
+- [Papa](name)[Papa Giorgio](name)
+- Yo yo my man! My name is [Jason](name)[Jason](name)
+- My name is[ Miles Lee](name)[Lee](name)
+- [Jason](name)
+- [Jason Lee](name)
+- [Miles Lee](name)
+- [Papa Giorgio](name)[Papa](name) Giorgio
+- [Chris Conley](name)[Conley](name)
+- My name is [Miles Lee](name)[Lee](name)
+
+## intent:inform
+- My email address is [papagtrade@yahoo.com](email)
+- [Ian](name)
+- [Pat](name)
+- [Jerry](name)
+- it is [Jason](name)
+- my names is [Amanda](name)
+- it is on [Sunday](date)
+- The game is [Saturday](date)
+- I live in [California](location)
+- I reside in [Florida](location)
+- I live in [Utah](location)
+- for sunday
+- for friday
+- for tomorrow
+- for saturday
+- today
+- tomorrow
+- next week
+- yesterday
+- for today
+- my email is [test@example.com](email)
+- my email is [abraham.lincoln@example.com](email)
+- [abraham.licoln@example.com](email)
+- it is [abraham.licoln@example.com](email)
+- [abraham.lincolon@example.com](email)
+- $[10](betsize)
+- [5000](betsize)
+- [500](betsize)
+- $[100](betsize)
+- $[500](betsize)
+- [100](betsize) dollars
+- [1000](betsize) dollars
+- [2 years](betlength)
+- [1½ years](betlength)
+- [10 years](betlength)
+- [Over](age)[Over](age)
+- [Under](age)
+- [1000](betsize)[1000](betsize)
+- $[10000](betsize)
+- my email is [jason@aisportsfirm.com](email)
+- [papagtrade@yahoo.com](email)
+- $[250](betsize)
+- $[25](betsize)
+- I typically bet around $[100](betsize) a game
+- About $[200](betsize)
+- I bet [1000](betsize) each
+- I've been doing this for about [10 years](betlength) now
+- I'd say around [3 years](betlength)
+- Bet size is $[650](betsize)
+- email is [lebron23@yahoo.com](email)[lebron23@yahoo.com](email)
+- I’ve been betting for [4 years](betlength)[4 years](betlength)
+- [1250](betsize)
+- bet size is $[750](betsize) a game
+- the email address is [jalee@freedomplus.com](email)
+- [jalee@freedomplus.com](email)
+- bet size is roughly $[400](betsize)
+- well lets see... I would say my bet size is around $[400](betsize) a game
+- [650](betsize)
+- I’ve been betting for [4 years](betlength)
+- email is [lebron23@yahoo.com](email)
+- age is [Over](name)[Over](age)
+- [11 years](betlength)[11 years](betlength)
+- [1500](betsize)
+- my email is [chrischris@gmail.com](email)
+- [chrischris@gmail.com](email)
+- My [parents](parents) for sure would let me bet on sports!
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- nope. That's it!
+- peace out son
+- Bye
+- Bye!
+- Goodbye
+- Bye bot
+- Goodbye friend
+- bye for now
+- catch you later
+- gotta go
+- See you
+- goodnight
+- have a nice day
+- i'm off
+- see you later alligator
+- we'll speak soon
+- goodbye bot
+- i'm done
+- quit
+- stop
+- see ya
+- buh bye
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- Yes I do!
+- YES!
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
+- yeah
+- si
+- ok
+- okay
+- yup
+- yes please
+- yes plz
+- yeah that sounds great!
+- haha that sounds about right
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- hell no
+- nope
+- nah
+- not today
+- no thanks
+- no thank you
+- uh no
+- uh nope
+- noope
+- do you have something else
+- no this does not work for me
+- nah man
+- or nah?
+- uhh... No thanks
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+- I'm doing pretty alright
+- Can't complain
+- I'm doing great today! No complaints!
+- I'm doing well
+- it's all good in the hood
+- It's a pretty good day
+- Life is good. No complaints from my point of view.
+- I’m doing really good my friend
+
+## intent:ask_howdoing
+- I'm doing really well. You?
+- Ahoy matey how are you?
+- are you alright
+- are you having a good day
+- Are you ok?
+- are you okay
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you today
+- How are you?
+- how do you do?
+- how have you been
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- How was your day?
+- How's it going
+- How's it hanging?
+- how's life
+- how's life been treating you?
+- How's life treating you friend?
+- how's your day going
+- How've you been?
+- I'm fine and you
+- is everything all right
+- Is everything ok?
+- is everything okay
+- what about your day
+- What's going on?
+- what's good
+- What's new?
+- What's up man
+- What's up
+- how are you?
+- Do you have a great day?
+- how are you doing today my sweet friend
+- how are you doing?
+- how are u
+- nah, I'm good - how are you doing?
+- how are yuo
+- How are you
+- how you doing
+- are you ok
+- How are you today?
+- how are u?
+- okay hi how are you?
+- how r u
+- how r u>
+- and you
+- How are you men?
+- what's up?
+- how are you????
+- how ?
+- how r u ?
+- h r u ?
+- how's it going?
+- hello, how are you?
+- hw r u?
+- what's up
+- wassup>
+- hi how u doing
+- Hi Sara! How are you?
+- how are you ?
+- how are you'
+- how are you doing today?
+- how you doing?
+- How are You?
+- what doing
+- how are xou
+- ¿Qué pasa?
+- hi how are you?
+- hi sara, how are you?
+- Hows it going
+- come stai?
+- How you doing?
+- I'm doing well. How are you?
+- How's it going?
+- you doing alright?
+- you doing ight?
+- I'm doing great! How are you?
+- I'm doing pretty good. How are you?
+- I'm doing well, thank you. How are you?
+- I'm doing quite well. And you?
+- I'm doing great. how are you?
+- good good good. How about you?
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+- i'm sad
+- Terrible.  My life is in shambles.
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+- you are a bot right
+- aren't you a bot
+- are you a robot or something?
+- I feel like you aren't even human
+
+## intent:acknowledge
+- ok
+- got it
+- understood
+- k
+- that makes sense
+- Delayed reaction but ok...
+- It's all good my man
+- kk deal
+- alright
+
+## intent:opinion+positive
+- nice!
+- excellent
+- that's awesome
+- very nice!
+- Actually, it did!  Thank you!
+- That's impressive!
+- thats not too bad.
+- thats not too bad
+- that's perfect
+
+## intent:opinion+negative
+- ugh
+- that sucks
+- woah! that's [expensive](price)
+- damn man that's rough
+
+## intent:thankyou
+- thank you goodbye
+- okay thank you goodbye
+- thank you bye
+- um okay thank you good bye
+- thank you
+- and thats all thank you and good bye
+- okay thank you
+- thanks
+- thanks goodbye
+- thank you and good bye
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- cool cool
+
+## intent:help
+- I need help
+- what can you help me with
+- can you help me
+- what can you do
+- I need some help
+- help me
+- can you please help me
+- I'm starting to feel like you don't actually know that much...
+
+## intent:tools
+- what tools do you have?
+- what do you use?
+- is there anything free to use?
+- Can I do this on my own?
+- How do you guys do what you do?
+- Do you use any specialized tools or anything like that?
+- well I'm wanting to make some more money. I'm currently betting alot of sports but not winning as much as I would like... Do you have anything to help improve my process?
+- I want to get better at sports betting
+
+## intent:invest
+- How can I invest with you guys?
+- How can I invest with you?
+- How can I invest?
+- How do I invest with you guys?
+- How do I invest with you?
+- How do I invest?
+- Can I just give you money?
+- What type of investment opportunities are there?
+- I need to make money
+- i'm fine... I need help making some money
+- I feel like I want to invest with you guys
+
+## intent:picks
+- do you give out free picks?
+- i am interested in your betting advice?
+- i am interested in your picks?
+- can i get some picks?
+- I'm looking for what teams to bet on this week.
+- who should i bet on?
+- who is the best team to bet?
+- I am looking to get some help on who to bet on this weekend
+- I want to bet on some games tonight
+- Who's going to win the [basketball](Sport) game this weekend?
+- can i get some free picks?
+- I want to make some bets on the games this weekend
+- Where can I get these picks?
+- I want to make some bets this weekend
+- do you think that I could get some picks or something?
+
+## intent:betting_history
+- What is your betting history?
+- How good are you guys?
+- Why should I listen to you guys?
+- What's your record?
+- What's your ROI?
+- How many units have you guys won?
+- Why should I trust you for betting advice?
+- how is your betting record?
+- That's a lot... Have you done well betting?
+- Why should I trust your picks?
+- Do you guys make alot of money?
+- Are you guys good at betting?
+- Oh that’s cool. Are you guys good at betting?
+
+## intent:sports
+- What sports do you guys bet on?
+- What do you bet?
+- Do you bet year round?
+- Which sports are best?
+- Is there a particular sport you focus on?
+- Oh that's great! What sports do you guys bet on?
+- Do you bet on any games?
+- What sports do you bet on?
+- What different sports do you guys bet on?
+
+## intent:bet_types
+- What type of investments do you make?
+
+## intent:ai_sports
+- what does A.I. Sports actually do?
+- I am interested in your platform. What does A.I. Sports really do?
+- A.I. Sports is a company carefully crafted to exploit inefficiencies in the sports betting markets. We specialize in advanced predictive modeling. Our goal is to help you make more money betting on sports.
+- I am interested in your platform... What does A.I. Sports really do?
+- I'm curious about what A.I. Sports really does...
+- A.I. Sports sounds really cool but i'm still confused about what you do
+- I feel like sports betting is really cool and all but what do you guys really do over there?
+- Isn't sports betting illegal? What can A.I. Sports really do?
+
+## intent:nfl
+- Do you bet on [pro football](Sport)?
+- Do you bet on [professional football](Sport)?
+- Do you bet on the [NFL](Sport)?
+- What do you think about the [NFL](Sport)?
+- What do you think about [pro football](Sport)?
+- What do you think about [professional football](Sport)?
+- Is [pro football](Sport) a big part of your investments?
+- Is [professional football](Sport) a big part of your investments?
+- Is the [NFL](Sport) a big part of your investments?
+- Is [pro football](Sport) a big part of your betting strategy?
+- Is the [NFL](Sport) a big part of your betting strategy?
+- Can I get some help with modeling the [NFL](Sport)?
+- Can I get some help with modeling [pro football](Sport)?
+- Can I get some help with modeling [professional football](Sport)?
+- What do you think about the [National Football League](Sport)
+- do you bet the [nfl](Sport)?
+- [Pro football](Sport) is my favorite sport
+- Do you bet on football?
+- Do you know how is going to win the [football](Sport) game?
+
+## intent:ncaaf
+- Do you bet on [college football](Sport)?
+- Do you bet on [NCAA football](Sport)?
+- What do you think about [NCAA football](Sport)?
+- What do you think about [college football](Sport)?
+- Is [college football](Sport) a big part of your investments?
+- Is [NCAA football](Sport) a big part of your investments?
+- Is [college football](Sport) a big part of your betting strategy?
+- Is [NCAA football](Sport) a big part of your betting strategy?
+- Can I get some help with modeling [NCAA football](Sport)?
+- Can I get some help with modeling [college football](Sport)?
+- I really want to learn more about [College football](Sport)[College football](Sport)
+
+## intent:nba
+- Do you bet on [pro basketball](Sport)?
+- Do you bet on [professional basketball](Sport)?
+- Do you bet on the [NBA](Sport)?
+- What do you think about the [NBA](Sport)?
+- What do you think about [pro basketball](Sport)?
+- What do you think about [professional basketball](Sport)?
+- Is [pro basketball](Sport) a big part of your investments?
+- Is [professional basketball](Sport) a big part of your investments?
+- Is the [NBA](Sport) a big part of your investments?
+- Is [pro basketball](Sport) a big part of your betting strategy?
+- Is the [NBA](Sport) a big part of your betting strategy?
+- Can I get some help with modeling the [NBA](Sport)?
+- Can I get some help with modeling [pro basketball](Sport)?
+- Can I get some help with modeling [professional basketball](Sport)?
+- Do you bet on any [nba](Sport) games?
+- I really like [basketball](Sport). Do you have any useful ideas to improve my modeling for the [NBA](Sport)[NBA](Sport)?
+
+## intent:ncaab
+- Do you bet on [college basketball](Sport)?
+- Do you bet on [NCAA basketball](Sport)?
+- What do you think about [NCAA basketball](Sport)?
+- What do you think about [college basketball](Sport)?
+- Is [college basketball](Sport) a big part of your investments?
+- Is [NCAA basketball](Sport) a big part of your investments?
+- Is [college basketball](Sport) a big part of your betting strategy?
+- Is [NCAA basketball](Sport) a big part of your betting strategy?
+- Can I get some help with modeling [NCAA basketball](Sport)?
+- Can I get some help with modeling [college basketball](Sport)?
+
+## intent:nhl
+- Do you bet on [pro hockey](Sport)?
+- Do you bet on [professional hockey](Sport)?
+- Do you bet on the [NHL](Sport)?
+- What do you think about the [NHL](Sport)?
+- What do you think about [pro hockey](Sport)?
+- What do you think about [professional hockey](Sport)?
+- Is [pro hockey](Sport) a big part of your investments?
+- Is [professional hockey](Sport) a big part of your investments?
+- Is the [NHL](Sport) a big part of your investments?
+- Is [pro hockey](Sport) a big part of your betting strategy?
+- Is the [NHL](Sport) a big part of your betting strategy?
+- Can I get some help with modeling the [NHL](Sport)?
+- Can I get some help with modeling [pro hockey](Sport)?
+- Can I get some help with modeling [professional hockey](Sport)?
+
+## intent:fifa
+- Do you bet on [soccer](Sport)?
+- Do you bet on [futbol](Sport)?
+- What do you think about [soccer](Sport)?
+- What do you think about [futbol](Sport)?
+- Is [soccer](Sport) a big part of your investments?
+- Is [futbol](Sport) a big part of your investments?
+- Is [soccer](Sport) a big part of your betting strategy?
+- Is [futbol](Sport) a big part of your betting strategy?
+- Can I get some help with modeling [futbol](Sport)?
+- Can I get some help with modeling [soccer](Sport)?
+- Do you do any [soccer](Sport) betting?
+- I have an interest in [soccer](Sport)
+- [Soccer](Sport) is my favorite sport
+- I want to start betting some [FIFA](Sport)
+
+## intent:apology
+- I'm sorry...
+- I'm sorry
+
+## intent:didnt_help
+- uhh... you didn't help me
+- That wasn't helpful
+- Man that didn't really help me.
+- That wasn't very helpful
+- you didn't even help me
+
+## intent:out_of_scope
+- You're going to send me a package of tiger cubs? Isn't that illegal?
+- what is the square root of 5
+- what is the meaning of life.
+- Fridge Isn't Running
+- my tv isn't working
+- my washing machine isn't working
+- what year is it
+
+## intent:sign_up
+- of course! How can I sign up
+- I want to sign up
+- I would like to sign up for A.I. Sports!
+- sign up
+- Sign up for your service
+- I'd like to sign up
+- Could I sign up for that?
+- can i sign up with you guys?
+- that's not too shabby... How can I sign up?
+- I want to sign up for your services
+- sign up with a.i. sports
+- sign up for A.I. Sports
+- yeah I’d sign up for that
+- alright then. I want to sign up
+- i need to sign up
+- sign up for a.i. sports stuff
+- sign up for your info
+
+## intent:ask_weather
+- How is the weather today?
+- What's the weather like?
+- How is the weather?
+- What is the weather at your place?
+- Do you have good weather?
+- Is it raining?
+- What's it like out there?
+- Is it hot or cold?
+- Beautiful day, isn't it?
+- What's the weather forecast?
+- Is it quite breezy outside?
+- Will I require my raincoat today?
+- What is the weather for tomorrow?
+- Nice day out today?
+- What is the temperature today?
+- Can we expect any thunderstorms?
+- Will the skies be clear today?
+- Are we in for a scorcher?
+- Looks like a beautiful day hey?
+- Will we build a snowman today?
+- Is it humid out there today?
+- Are there any meteorological changes that I need to be aware of?
+- whats the weather like tomorrow?
+- hows the weather in bot world
+- how is the weather in berlin?
+- what's the weather today?
+- how's the weather?
+- what's the weather like where you are?
+- is the sun out where you are?
+- is it sunny
+- is the sun out where zou are?
+- what"s the weather
+- whats the weather in berlin?
+- how's the weather in berlin
+- excellent - is it hot in Berlin?
+- how is the weather?
+- weather
+- weather?
+- what's the weather like?
+- how's weather
+- how's the weather ?
+- what is the whether today
+- what is the weather in zurich?
+- what about the weather in Lüneburg
+- what's the weather today
+- what is the wather
+- what is the weather
+- Weather?
+- What's the weather like where I am right now?
+- what is the weatehr
+- temperature?
+- what's the weather like in LA
+- what is the weather like where you are?
+- hows the waether
+- is it hot ?
+- is it hot outside ?
+- how is the weather ?
+- it is cold
+- how is the weather
+- well, if you wish: what about the weather
+- weatger
+- What's the weather like over there?
+- Is it raining
+- what is the temperature
+- How is weather today
+- What is the weather in newyork?
+- the weather today
+- what is the weather like?
+- whats the temperature in delhi?
+- whats the temperature
+- hows the weather today in berlin?
+- what's the weather like
+- Is it going to rain today?
+- Do you know what the weather is like?
+- What's the weather like today?
+- What's the weather
+- what's the weather like tomorrow?
+- what's the weather going to be like on Thursday?
+
+## intent:ask_builder
+- can you share your boss with me?
+- i want to get to know your owner
+- i want to know the company which designed you
+- i want to know the company which generated you
+- i want to know the company which invented you
+- i want to know who invented you
+- May I ask who invented you?
+- please tell me the company who created you
+- please tell me who created you
+- tell me more about your creators
+- tell me more about your founders
+- which company brought you into existence?
+- which company created you?
+- which company invented you?
+- Who's your boss?
+- Who's your builder?
+- Who built you?
+- Who created you?
+- Who is your creator?
+- Who designed you?
+- who do you work for?
+- Who fabricated you?
+- Who generated you?
+- who had the idea to build you?
+- who had the idea to generate you?
+- who had the idea to make you?
+- who is behind all this?
+- Who is the legal owner of you?
+- who is your boss tell me
+- who is your boss?
+- who is your creator?
+- Who is your programmer?
+- Who made you?
+- Who modeled you?
+- Who owns you?
+- Who produced you?
+- Who thought to make you?
+- Who went through the trouble of setting you up?
+- and who built u?
+- who built you?
+- who build yoi
+- who made you?
+- where were you made?
+- why were you made?
+- who created you?
+- tell me more about you
+- who created you
+- who invent you
+- who developed
+- who developed you
+- who made u
+- you are made by who?
+- who built u?
+- who made u?
+- who is your author
+- who made you
+- who is your boss
+- who built you
+- who is your parent?
+- who are your parents
+- who your author are?
+- who are your author?
+- you are working for which company?
+- who is your employer?
+- what is the name of the smart engineer who creted you ?
+- who is your father ?
+- who create you ?
+- who's builder
+- who is your mom
+- who is your daddy
+- Do you know who built you?
+- Who is the name of your builder?
+- Who is the name of your creator?
+- Who is the person that invented you?
+- Do you know who made you?
+- Who were you built by?
+- Who were you created by?
+- By whom were you built?
+- Who developed you?
+- Who created and built you?
+- Who is the person responsible for building you?
+- Who is it that built you?
+- Who is responsible for making you?
+- Who developed and created you?
+- Who was the person that made you?
+- Who put you together?
+- Who was the person that created you?
+- Who was the person who made you?
+- Who was the person that built you?
+- Who was the person who put you together?
+- Who was the one who made you?
+- Who was the one that built you?
+- Who is the person who built you?
+- Tell me who built you.
+- Who is the builder of you?
+- Tell me the name of your creator.
+- What is the name of your builder?
+- Name the person who built you.
+- Tell me the name of the person who built you.
+- Who were you made by?
+- Tell me the name of the individual who created you.
+- Can I ask the name of the people who designed you?
+- What person built you?
+- who is your creator
+
+## intent:ask_restaurant
+- restaurants
+- can i be shown a gluten free restaurant
+- i want a french restaurant
+- i'm looking for a Chinese restaurant
+- I need a new restaurant
+- help me find restaurant
+- I'm gonna need help finding a restaurant
+- Hey help me find a restaurant
+- How can you help me find a restaurant.
+- Where is the restaurant
+- Show me how to find a restaurant
+- I need to find this restaurant
+- Help me with finding this restaurant
+- Hey, can you help me with locating this restaurant.
+- Find me a place to eat
+- Can you recommend a restaurant open right now
+- What's the closest restaurant open near me
+- I am hungry, find me some place to go
+- Suggest me a good restaurant around
+- Show me the closest open restaurant
+- What's a good place to eat nearby
+- Recommend me a restaurant around here.
+- Pick a restaurant for me, please
+- Help me find a restaurant
+- Can you find a restaurant for me?
+- Find a restaurant for me?
+- Would you find me a restaurant?
+- Would you find a restaurant for me?
+- Could you find me a restaurant?
+- Could you find a restaurant for me?
+- Could you find me a restaurant to eat at?
+- Find a restaurant for me to eat at.
+- Find me a restaurant where I can eat.
+- Find a restaurant for me where I can eat.
+- I need a restaurant.
+- Can you find me a restaurant?
+- Where should I eat?
+- Where should I go for dinner?
+- Any good restaurants nearby?
+- Can you find me a burger joint?
+- I'm looking for a Spanish restaurant.
+- What restaurant would you recommend for dinner?
+- Hi, can you give me the nearest fast food place?
+- Find me a fast food restaurant.
+- Do you find me a restaurant?
+- Is there any restaurant?
+- IS there any near by restaurant?
+- can you find me a restaurant?
+- Would you find any restaurant?
+- Do you seek me a restaurant?
+- Have you seen me a restaurant?
+- Will you find me a restaurant?
+- will you see any restaurant for me?
+- order a pizza
+- I want to order a pizza
+- I want a pizza
+- Do you like ice cream?
+
+## intent:handleinsult
+- you're a loser lmao
+- you are a stupid bot
+- i hate you
+- Stupid
+- fuck you
+- so dumb
+- you are a moron
+- you are an idiot
+- so fucking dumb
+- are you brain dead?
+- how can you be such an idiot?
+- a baby knows more than you
+- i hate your dumb face
+- you are fucking stupid
+- bloody dunce
+- You're an idiot.
+- You are a fool.
+- You're foolish.
+- You are dumb.
+- You have no sense.
+- You are unintelligent.
+- You're a dolt.
+- You're a dunce.
+- You have no brains.
+- You have no intelligence.
+- You are an idiot.
+- You lack intelligence.
+- You are unknowing.
+- You are shortsighted.
+- Your intelligence is laughable.
+- You know nothing.
+- You lack understanding.
+- Your mindset is naive.
+- You brain is dull.
+- you are dumb
+- you're an idiot
+- God you're a moron
+- you're so dumb
+- you are idiotic
+- you're the most moronic person I know
+- I can't believe how dumb you are
+- you are unintelligent
+- you're not smart
+- you are so ignorant
+- you are stupid
+- you're dumb
+- asshole
+- bitch
+- fuck u
+- idiot
+- deal with my ass, you bitch
+- you son of a bitch
+- shut up asshole
+- you asshole
+- are u dump?
+- fuck off
+- fuck
+- Fuck
+- Fuck you
+- fuck you machine learning bot
+- Fuck u
+- what fuck
+- fucking stupid
+- you are fucking stupid guy！
+- go fuck yourself
+- Fuck off
+- fuck rasa
+- fuck you!
+- Fuck Off
+- ok fuck you
+- FUCK
+- fucking work
+- ok shut up
+- what the hell man
+- you suck dick
+
+## intent:telljoke
+- tell me a joke
+- Say something funny.
+- Give me a joke.
+- Give me a funny joke.
+- What's a good joke?
+- Do you have any jokes?
+- Do you know any jokes?
+- I need a good joke.
+- Tell me the best joke you know.
+- Tell joke.
+- Tell me something funny.
+- Share a joke with me!
+- Tell me something humorous!
+- Will you tell me a joke.
+- Can you tell me a joke.
+- Would you tell me a joke
+- Please tell me a joke.
+- Could you tell me a joke.
+- Would you share a joke with me.
+- Could you please share a joke with me.
+- Make me laugh.
+- Entertain me with a joke.
+- Tell me something that you think will make me laugh.
+- I want to hear something funny.
+- Give me some comic relief.
+- Can you tell a joke?
+- Know any jokes?
+- Come up with a joke you think I'll find funny.
+- Let's hear a joke from you.
+- say a joke that's funny
+- make me laugh with a joke
+- tell me something funny, like a joke
+- say a joke
+- tell me a short joke
+- tell me a story joke
+- say a funny joke
+- say a joke that's so bad it's funny
+- make me laugh with a bad joke
+- give me a good joke
+- you can say a jok
+
+## intent:ask_wherefrom
+- where do you live?
+- where do you live
+- where are you from?
+- So where are you from
+- Where are you?
+- Where were you born?
+- What city were you born in?
+- Where did you grow up?
+- What state were you born in?
+- What country were you born in?
+- Where do you come from?
+- Where were you at before you were here?
+- Where from?
+- Do you know where you come from?
+- where's your home town?
+- what country are you from?
+- are you from around here?
+- where did you grow up?
+- where are your parents from?
+- where did you spend your youth?
+- where did you come from?
+- Where do you consider home?
+- What city do you claim to for your birth?
+- What citizenship do you lay claim to?
+- What is your heritage?
+- What is your birthplace?
+- You were conceived in what city?
+- What is your root?
+- What is your origin?
+- From where did you come?
+- Where did you come from?
+- Where did you originate?
+- Where are your roots?
+- Where are your origins?
+- What area are you from?
+- What city are you from?
+- What's the name of the place you came from?
+- What is your original city?
+- Where might you be from?
+- Where do you live?
+- What city are you in?
+- What country are you from?
+- Around where are you from?
+- Where are you located?
+- Are you from around here?
+- You live around here?
+- Where are you from?
+
+## intent:ask_time
+- what is the current time?
+- what is the time in Sydney?
+- whats the time now
+- what is the time ?
+- what is time in US ?
+- what is time is US ?
+- what is time is USA ?
+- what time it is
+- What is the time?
+- Can you give me the time?
+- Time?
+- Do you know the time?
+- Can you tell the time?
+- Give me the time.
+- Tell me the time.
+- Could you tell me what time is it?
+- Excuse me, what time is it?
+- Do you know what time it is?
+- Could you tell me the time?
+- Could you tell me the time, please?
+- Would you tell me what time it is?
+- Time, please!
+- Pardon me, but do you know the time?
+- What's the time?
+- What's the current time?
+- What time is it right now?
+- Do you have the time?
+- Can you tell me what time it is?
+- Hi, I need the time.
+- I need to know what time it is.
+- What's the time right now?
+- What is the current time?
+- Can you tell me the time?
+- What might the time be?
+- What is the hour and minute right now?
+- What time have we got?
+- What time do we have?
+- What is the exact time?
+- what is the time?
+- do you know the current time?
+- what time do you have?
+- do you have the time?
+- tell me the current time.
+- tell me the time.
+- tell me what time you have.
+- tell me the time it is.
+- what time is it?
+
+## intent:ask_howold
+- whats your age?
+- how old?
+- what's your age?
+- when were you born?
+- what is your birthday?
+- when is your birthday?
+- how many years old are you?
+- do you know how old you are?
+- what is your exact age?
+- what year were you born?
+- can you tell me your age?
+- What is your age?
+- What is your birthdate?
+- How old will you be on your next birthday?
+- When do you celebrate your day of birth?
+- How old were you on your last birthday?
+- How many candles were on your last birthday cake?
+- Do you have friends the same age as you, if so, how old are they?
+- Tell me your day, month and year of birth.
+- Whats your age?
+- and you are how many years old?
+- whats your birth year?
+- what age were you when you celebrated your last birthday?
+- how old were you when you celebrated your last birthday?
+- tell me your age?
+- how about your age
+- how old were you on your last birthday?
+- what age are you
+- how old will you be this year?
+- What year were you born?
+- How long have you been around?
+- How long have you been alive?
+- What was your age on your last birthday?
+- What will be your age on your next birthday?
+- How many years have you lived?
+- How many years have you been alive?
+- How long have you occupied the earth?
+- What is your count of years being alive so far?
+- what is your age?
+- in what year were you born?
+- what number represents your age?
+- tell me how old you are?
+- give me your age?
+- tell me your age number?
+- can you tell me exactly how old you are?
+- can you tell me what number represents your age?
+- how old are you
+- How old are you?
+- how old are u
+- how old are you?
+
+## intent:ask_whoami
+- Who am I?
+- Okay who am I?
+- WHo am I
+- Tell me who am I?
+- Tell me who I am?
+- Do you know who I am?
+- Can you tell me who I am?
+- How do I discover who I am?
+- How can I determine who I am?
+- Do you know who am I?
+- Can you tell me who am I?
+- How do I discover who am I?
+- How can I determine who am I?
+- who are I ?
+- who may i ?
+- Shall i know who am i?
+- Tell me who I am.
+- How do I identify myself?
+- Who could I be?
+- tell me who I am?
+- what's my identity?
+- tell me what my identity is?
+- can you tell me what I am?
+- can you tell me what my identity is?
+- can you tell me who I am?
+- who am i
+
+## intent:ask_languagesbot
+- What languages can you use?
+- Which languages do you speak?
+- What are the languages you can speak?
+- In which languages can you speak?
+- What languages do you know?
+- What languages are you fluent in?
+- In which languages are you fluent?
+- What languages can you converse in?
+- What languages do you know how to use?
+- Which languages are you familiar with?
+- what languages are you familiar with?
+- what languages you know?
+- In what languages are you fluent enough?
+- what languages you can speak ?
+- what languages are you comfortable speaking at?
+- what languages are you good at speaking?
+- what languages you are well versed ?
+- what languages you can be comfortable speaking?
+- what languages you prefer more speaking at?
+- what languages you can handle well?
+- Do you know any other languages?
+- Do you speak any other languages?
+- What languages do you speak?
+- What do you speak?
+- Speak any other languages?
+- Can you communicate in any other languages?
+- What languages can you communicate in?
+- How many languages do you know?
+- what languages do you know?
+- tell me some languages you know?
+- do you speak any other languages?
+- what else do you know besides English?
+- are you bilingual?
+- are you multilingual?
+- what foreign languages do you know?
+- what foreign languages are you fluent in?
+- how many languages are you fluent in?
+- how many languages do you know?
+- How many languages can you speak?
+- How many different languages are you fluent in?
+- How many languages do you have knowledge of?
+- What are all of the different languages you can speak?
+- Are you familiar with more than one language?
+- Can you speak more than one language?
+- Do you know other languages?
+- How many languages are you familiar with?
+- can you speak in italian?
+- do you speak german?
+- Do you speak german?
+
+## intent:ask_whatismyname
+- what is my name?
+- May i know my name?
+- What is my name?
+- What do I call myself?
+- Tell me my name.
+- Explain my name to me.
+- What could be my name?
+- What name do I go by?
+- What name should I recognize for myself?
+- what's my name?
+- can you tell me my name?
+- Do I have a name?
+- Do I have a name? What is it?
+- What was I named?
+- Say my name.
+- Do you know my name?
+- What do people call me?
+- Can you tell me my name?
+- What else do people call me?
+- I have a name, what is it?
+- Tell me my name
+- I'd like to know my name
+- Inform me what my name is
+- Please let me know what my name is
+- Can you tell me what I am called?
+- I'd like to know what my name is
+- What is the name I was given?
+- What does everyone call me?
+- What am I called?
+- What did my parents name me?
+- What do my colleagues call me?
+- What would be the name on my tombstone?
+- Do you know what my name is?
+- What is my first name?
+- What is my full name?
+- What exactly is my name?
