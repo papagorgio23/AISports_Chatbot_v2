@@ -89,11 +89,6 @@ slots:
 responses:
   utter_ask_age:
   - text: Are you over the age of 21?
-  - buttons:
-    - payload: '/inform{"age": "Over"}'
-      title: Yes
-    - payload: '/inform{"age": "Under"}'
-      title: No
   utter_ask_email:
   - text: What is your email address?
   utter_ask_betsize:
