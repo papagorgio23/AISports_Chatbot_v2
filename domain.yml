@@ -86,7 +86,6 @@ slots:
     type: unfeaturized
   requested_slot:
     type: unfeaturized
-    auto_file: false
 responses:
   utter_ask_age:
   - text: Are you over the age of 21?
