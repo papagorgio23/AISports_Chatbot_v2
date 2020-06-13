@@ -21,7 +21,8 @@ intents:
 - tools
 - invest
 - picks
-- betting_history
+- betting_history:
+    triggers: utter_betting_history
 - sports
 - nfl
 - ncaaf
@@ -31,7 +32,8 @@ intents:
 - fifa
 - ask_howdoing
 - apology
-- didnt_help
+- didnt_help:
+    triggers: utter_help_you
 - out_of_scope
 - sign_up
 - ask_weather
@@ -46,14 +48,9 @@ intents:
 - ask_languagesbot
 - ask_whatismyname
 - ask_whatspossible
-- chitchat
 - stop
 - ai_sports
 entities:
-- amount-of-money
-- time
-- number
-- price
 - date
 - Sport
 - location
@@ -81,8 +78,6 @@ slots:
   name:
     type: unfeaturized
   parents:
-    type: unfeaturized
-  price:
     type: unfeaturized
   requested_slot:
     type: unfeaturized
@@ -115,11 +110,6 @@ responses:
   - text: Peace out!
   - text: See ya later!
   - text: Good luck! See ya!
-  utter_respond_insult:
-  - text: I'm sorry but that hurt my feelings. We can move past this but I would appreciate
-      an apology first.
-  utter_respond_insult2:
-  - text: I don't deserve this kind of abuse!
   utter_ask_why_leaving:
   - text: Why are you leaving so soon?
   - text: Did I say something wrong?
@@ -149,7 +139,7 @@ responses:
   utter_invest:
   - text: Due to the gray area that sports betting falls into in the U.S., it really
       depends on what state you are in and what your interested/comfortable with.
-      A private meetings to discuss details might be needed
+      A private meetings to discuss details might be needed...
   - text: I know a guy that could help you out! Investing is our game!
   utter_picks:
   - text: We provide between 5-12 free picks on Twitter each weekend for NFL and NCAAF
@@ -173,9 +163,6 @@ responses:
   - text: We bet on NFL, NCAAF, NBA, NCAAB, NHL, FIFA, and every now and then MLB.
   utter_pleasant_greet:
   - text: It's a great day to be alive!
-  utter_well_being:
-  - text: I can't complain
-  - text: Life is good!
   utter_help_you:
   - text: How can I help you today?
   - text: How could I be of service?
@@ -236,6 +223,9 @@ responses:
   - text: I hope you are being yourself.
   utter_handleinsult:
   - text: That’s not very nice 😢
+  - text: I don't deserve this kind of abuse!
+  - text: I'm sorry but that hurt my feelings. We can move past this but I would appreciate
+      an apology first.
   utter_telljoke:
   - text: Why are eggs not very much into jokes? - Because they could crack up.
   - text: Do you know a tree’s favorite drink? - Root beer!
@@ -254,6 +244,8 @@ responses:
   - text: I'm great! Thanks for asking.
   - text: I'm good, thanks!
   - text: A little bit too warm, otherwise fine.
+  - text: I can't complain
+  - text: Life is good!
   utter_out_of_scope:
   - text: Sorry, I'm not sure how to respond to that. Type "help" for assistance.
   utter_default:
@@ -264,7 +256,9 @@ responses:
   utter_submit:
   - text: All done!
   utter_slots_values:
-  - text: I am going to run this by you to make sure I have everything correct
+  - text: "I am going to run this by you to make sure I have everything correct:\n\
+      \ - Name: {name}\n - Email: {email}\n - Bet Size: {betsize}\n - Years Betting:\
+      \ {betlength}\n - Over 21: {age}"
   utter_ask_name:
   - text: What is your full name?
   utter_ncaab:
@@ -282,8 +276,8 @@ responses:
       modeling coupled with years of actual betting experience to generate solid returns.
   utter_nfl:
   - text: The NFL is the hardest market to beat! However, we have a documented 302-217-15
-      (56.6%) over the last 2 seasons betting against the spread. Not a bad ROI if you ask me.
-      Our 2nd half bets against the spread had a hit rate closer to 70%!
+      (56.6%) over the last 2 seasons betting against the spread. Not a bad ROI if
+      you ask me. Our 2nd half bets against the spread had a hit rate closer to 70%!
   utter_nhl:
   - text: We here at A.I. Sports have a soft spot in our hearts for hockey. Several
       of our team members used to play back in the day. We have a model and some talented
@@ -298,9 +292,69 @@ responses:
   - text: A.I. Sports is a company carefully crafted to exploit inefficiencies in
       the sports betting markets. We specialize in advanced predictive modeling. Our
       goal is to help you make more money betting on sports.
-
+  utter_ok:
+  - text: Thanks. It's ok. We can move forward. How can I help you?
 actions:
 - action_chitchat
-
+- utter_ask_age
+- utter_ask_email
+- utter_ask_betsize
+- utter_ask_betlength
+- utter_ask_parents
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_ask_why_leaving
+- utter_good_value
+- utter_ask_continue
+- utter_positive_feedback_reaction
+- utter_iamabot
+- utter_explain_whatspossible
+- utter_cannot_help
+- utter_tools
+- utter_invest
+- utter_picks
+- utter_betting_history
+- utter_sports
+- utter_pleasant_greet
+- utter_help_you
+- utter_how_are_you
+- utter_good
+- utter_thanks
+- utter_anything_else
+- utter_fifa
+- utter_sign_up
+- utter_form
+- utter_greet_name
+- utter_continue
+- utter_ask_howold
+- utter_ask_languagesbot
+- utter_ask_restaurant
+- utter_ask_time
+- utter_ask_wherefrom
+- utter_ask_whoami
+- utter_handleinsult
+- utter_telljoke
+- utter_ask_whatismyname
+- utter_ask_weather
+- utter_ask_builder
+- utter_ask_howdoing
+- utter_out_of_scope
+- utter_default
+- utter_nba
+- utter_submit
+- utter_slots_values
+- utter_ask_name
+- utter_ncaab
+- utter_ncaaf
+- utter_signup_2
+- utter_nfl
+- utter_nhl
+- utter_mlb
+- utter_signup_deny
+- utter_ai_sports
+- utter_ok
 forms:
 - picks_form
